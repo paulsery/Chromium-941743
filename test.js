@@ -1,3 +1,3 @@
-function exploit() {
+function test() {
    console.log('test');
 }
