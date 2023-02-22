@@ -78,6 +78,7 @@ function mapping(a) {
 }
 
 function get_rw() {
+  console.log('get_rw');
   for (let i = 0; i < 10 ** 5; i++) {
     mapping(a);
   }
@@ -190,8 +191,3 @@ function exploit() {
   get_rw();
   rce();
 }
-
-function test() {
-   console.log('test');
-}
-
