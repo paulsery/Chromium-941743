@@ -186,8 +186,12 @@ function rce() {
 }
 
 
-function exploit() {
+function _exploit() {
   get_rw();
   rce();
+}
+
+function exploit() {
+   console.log('test');
 }
 
